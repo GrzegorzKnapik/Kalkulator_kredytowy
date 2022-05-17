@@ -1,0 +1,11 @@
+
+Create database simpledb;
+Use simpledb;
+Create Table wynik (
+Idwynik int not null AUTO_INCREMENT,
+kwota int(11) null,
+czas int(11) null,
+oprocentowanie int(11) not null,
+result float not null,
+data date,
+PRIMARY KEY(Idwynik));
